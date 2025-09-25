@@ -1,0 +1,75 @@
+# =========================
+# Core Build Artifacts
+# =========================
+# /Makefile
+/Makefile.in
+/config.log
+/config.status
+/configure
+/libtool
+/aclocal.m4
+/autom4te.cache/
+/build-aux/
+/m4/
+
+# Object & Binary Files
+*.o
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# =========================
+# Development & Debugging
+# =========================
+# Core dumps
+core
+core.*
+vgcore.*
+
+# GDB / LLDB history
+.gdb_history
+.lldb
+
+# Logs
+*.log
+
+# =========================
+# Editors & IDEs
+# =========================
+# VSCode
+.vscode/
+*.code-workspace
+
+# Vim / Emacs / JetBrains
+*~
+*.swp
+*.swo
+.*.sw?
+\#*\#
+.project
+.idea/
+
+# =========================
+# Tests
+# =========================
+/test/**/*.out
+/unit/**/*.out
+/test/**/*.log
+/unit/**/*.log
+/test/tmp/
+/unit/tmp/
+
+# =========================
+# Miscellaneous
+# =========================
+.DS_Store
+Thumbs.db
+
+*.sql
+xdb
